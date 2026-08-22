@@ -159,6 +159,9 @@
   ],
   "contact": {
     "heading": "Let's work together",
-    "intro": "Open to career opportunities, freelance web development, and technical collaborations. The quickest way to reach me is email."
+    "intro": "Open to career opportunities, freelance web development, and technical collaborations. The quickest way to reach me is telegram."
+  },
+  "footer": {
+    "note": "© 2026 Chy Soksavit. All rights reserved."
   }
 }
