@@ -154,14 +154,11 @@
     },
     {
       "name": "English",
-      "level": "Full professional"
+      "level": "Good"
     }
   ],
   "contact": {
     "heading": "Let's work together",
     "intro": "Open to career opportunities, freelance web development, and technical collaborations. The quickest way to reach me is email."
-  },
-  "footer": {
-    "note": "Built with Next.js and Tailwind CSS."
   }
 }
