@@ -1,10 +1,9 @@
 {
   "site": {
     "url": "",
-    "title": "Chy Soksavit — Web Developer",
+    "title": "Chy Soksavit \u2014 Web Developer",
     "description": "Web developer and IT engineer based in Phnom Penh, building high-performance web applications with Vue.js, Node.js, Laravel and SQL databases."
   },
-
   "profile": {
     "name": "Chy Soksavit",
     "initials": "CS",
@@ -20,80 +19,125 @@
     "availability": "Available for freelance work",
     "summary": "Hardworking and ambitious web developer currently completing a Master of Information Technology Engineering. I care about clean, maintainable code and enjoy engineering high-performance web applications with Vue.js, Node.js, Express, PHP, Laravel and SQL databases."
   },
-
   "nav": [
-    { "href": "#top", "label": "Intro" },
-    { "href": "#experience", "label": "Experience" },
-    { "href": "#projects", "label": "Projects" },
-    { "href": "#skills", "label": "Skills" },
-    { "href": "#contact", "label": "Contact" }
-  ],
-
-  "experience": [
     {
-      "role": "Full-stack Developer",
-      "company": "GAEA-SYS",
-      "type": "Full-time",
-      "period": "2025 — Present",
-      "startDate": "May 15, 2025",
-      "description": "Building web applications end to end — frontend interfaces and backend APIs — with database design and cross-team collaboration.",
-      "stack": ["Laravel", "PHP", "Vue.js", "PostgreSQL"]
+      "href": "#top",
+      "label": "Intro"
     },
     {
-      "role": "Full-stack Developer",
-      "company": "THEA LAN Startup",
-      "type": "Freelance",
-      "period": "2025 — Present",
-      "startDate": "March 17, 2025",
-      "description": "Delivering frontend and backend features for client web projects, from UI components through to REST API endpoints.",
-      "stack": ["AngularJS", "Node.js", "Express.js"]
+      "href": "#experience",
+      "label": "Experience"
+    },
+    {
+      "href": "#projects",
+      "label": "Projects"
+    },
+    {
+      "href": "#skills",
+      "label": "Skills"
+    },
+    {
+      "href": "#contact",
+      "label": "Contact"
     }
   ],
-
+  "experience": [
+    {
+      "role": "Web Developer",
+      "company": "GAEA-SYS",
+      "type": "Full-time",
+      "period": "2025 \u2014 Present",
+      "startDate": "May 15, 2025",
+      "description": "Building web applications end to end \u2014 frontend interfaces and backend APIs \u2014 with database design and cross-team collaboration.",
+      "stack": [
+        "Laravel",
+        "PHP",
+        "Vue.js",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "role": "Web Developer",
+      "company": "THEA LAN Startup",
+      "type": "Freelance",
+      "period": "2025 \u2014 Present",
+      "startDate": "March 17, 2025",
+      "description": "Delivering frontend and backend features for client web projects, from UI components through to REST API endpoints.",
+      "stack": [
+        "AngularJS",
+        "Node.js",
+        "Express.js"
+      ]
+    }
+  ],
   "projects": [
     {
-      "title": "Car Management SaaS Platform",
+      "title": "ERP & Employee Mobile App",
       "featured": true,
       "status": "In progress",
       "role": "Web Developer",
-      "period": "2025 — Present",
-      "description": "Multi-tenant SaaS platform for automotive businesses. Each company gets its own workspace to manage vehicles, customers and daily operations, with a built-in HR module for staff records on top.",
+      "period": "2026 \u2014 Present",
+      "description": "Multi-platform ERP ecosystem for business management and employee self-service. The system features a centralized web administrative dashboard alongside a companion mobile application for staff operations like attendance and leave requests.",
       "highlights": [
-        "Laravel REST API with role-based access per tenant",
-        "Vue.js single-page frontend",
-        "PostgreSQL database design",
-        "HR module for employees and attendance"
+        "Laravel REST API serving both web and mobile clients",
+        "Vue.js single-page frontend for the admin panel",
+        "Flutter cross-platform mobile app for employee self-service",
+        "PostgreSQL database design with centralized authentication"
       ],
-      "tags": ["Laravel", "PHP", "Vue.js", "PostgreSQL", "Tailwind CSS"],
+      "tags": [
+        "Laravel",
+        "Vue.js",
+        "Flutter",
+        "PostgreSQL",
+        "Tailwind CSS"
+      ],
       "github": "",
       "demo": ""
     }
   ],
-
   "skills": [
     {
       "category": "Frontend",
-      "items": ["Vue.js", "AngularJS", "JavaScript (ES6+)", "HTML5 / CSS3", "Tailwind CSS"]
+      "items": [
+        "Vue.js",
+        "AngularJS",
+        "JavaScript (ES6+)",
+        "HTML5 / CSS3",
+        "Tailwind CSS"
+      ]
     },
     {
       "category": "Backend",
-      "items": ["Node.js", "Express.js", "PHP", "Laravel", "RESTful APIs"]
+      "items": [
+        "Node.js",
+        "Express.js",
+        "PHP",
+        "Laravel",
+        "RESTful APIs"
+      ]
     },
     {
       "category": "Databases",
-      "items": ["MySQL", "PostgreSQL"]
+      "items": [
+        "MySQL",
+        "PostgreSQL"
+      ]
     },
     {
       "category": "Tooling",
-      "items": ["Git", "GitHub", "GitLab", "Postman"]
+      "items": [
+        "Git",
+        "GitHub",
+        "GitLab",
+        "Postman"
+      ]
     }
   ],
-
   "education": [
     {
       "degree": "Master of Information Technology Engineering",
       "institution": "Royal University of Phnom Penh",
-      "period": "2026 — Present",
+      "period": "2026 \u2014 Present",
       "status": "In progress"
     },
     {
@@ -103,17 +147,20 @@
       "status": "Completed"
     }
   ],
-
   "languages": [
-    { "name": "Khmer", "level": "Native" },
-    { "name": "English", "level": "Full professional" }
+    {
+      "name": "Khmer",
+      "level": "Native"
+    },
+    {
+      "name": "English",
+      "level": "Full professional"
+    }
   ],
-
   "contact": {
     "heading": "Let's work together",
     "intro": "Open to career opportunities, freelance web development, and technical collaborations. The quickest way to reach me is email."
   },
-
   "footer": {
     "note": "Built with Next.js and Tailwind CSS."
   }
