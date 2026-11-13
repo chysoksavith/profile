@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Hi, I'm Chysok Savith 👋
 
-## Getting Started
+A software developer focused on building modern, practical, and user-friendly web applications.
 
-First, run the development server:
+- 🔭 Currently working on web development projects and personal portfolio work
+- 🌱 Learning and improving in full-stack development, UI/UX, and modern frameworks
+- 💡 Interested in building useful tools and digital experiences that solve real problems
+- 📫 Open to collaboration and new opportunities
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Featured Projects
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [portfolio-web](https://github.com/chysoksavith/portfolio-web) — Personal portfolio website
+- [EcoStore](https://github.com/chysoksavith/EcoStore) — E-commerce / store project
+- [attendance_app](https://github.com/chysoksavith/attendance_app) — Attendance management app
+- [food-app](https://github.com/chysoksavith/food-app) — Food application project
+- [invoice](https://github.com/chysoksavith/invoice) — Invoice management app
+- [event-project](https://github.com/chysoksavith/event-project) — Event project
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- JavaScript / TypeScript
+- PHP / Laravel
+- React / Next.js
+- HTML / CSS / Bootstrap
+- MySQL
+- Git / GitHub
 
-## Learn More
+## About Me
 
-To learn more about Next.js, take a look at the following resources:
+I enjoy turning ideas into working products with clean code, responsive design, and a strong user experience.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contact
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- GitHub: [@chysoksavith](https://github.com/chysoksavith)
+- Portfolio: [portfolio-web](https://github.com/chysoksavith/portfolio-web)
 
-## Deploy on Vercel
+> Clean, professional, and project-focused GitHub profile.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Note: for GitHub to display this README on your profile automatically, the repository name must be exactly:
+
+`chysoksavith`
+
+If you rename this repository to `chysoksavith`, this profile will appear on your GitHub main profile page.
