@@ -1,38 +1,44 @@
-import { Mail, Phone } from 'lucide-react';
-import GithubIcon from '@/components/GithubIcon';
-import { footer, mailtoHref, profile, telHref } from '@/lib/data';
-
-const links = [
-  { icon: Mail, label: 'Email', href: mailtoHref, external: false },
-  { icon: Phone, label: 'Phone', href: telHref, external: false },
-  { icon: GithubIcon, label: 'GitHub', href: profile.github, external: true },
-];
+import Link from 'next/link';
+import { profile } from '@/lib/data';
 
 export default function Footer() {
   return (
-    <footer className="border-t border-line">
-      <div className="mx-auto flex max-w-3xl flex-col items-center justify-between gap-4 px-6 py-8 text-xs text-subtle sm:flex-row">
-        <p>
-          © {new Date().getFullYear()} {profile.name}. {footer.note}
-        </p>
-
-        <ul className="flex items-center gap-5">
-          {links.map(({ icon: Icon, label, href, external }) => (
-            <li key={label}>
-              <a
-                href={href}
-                {...(external
-                  ? { target: '_blank', rel: 'noopener noreferrer' }
-                  : {})}
-                className="inline-flex items-center gap-1.5 transition-colors hover:text-ink"
-              >
-                <Icon size={13} />
-                {label}
-              </a>
-            </li>
-          ))}
-        </ul>
+    <footer className="mt-16 border-t border-line/60 py-12 text-center text-xs text-subtle">
+      <div className="mx-auto flex max-w-sm justify-around pb-6 text-sm">
+        <Link
+          href="/experience"
+          className="text-muted transition-colors hover:text-ink"
+        >
+          Experience
+        </Link>
+        <Link
+          href="/projects"
+          className="text-muted transition-colors hover:text-ink"
+        >
+          Projects
+        </Link>
+        <Link
+          href="/cv"
+          className="text-muted transition-colors hover:text-ink"
+        >
+          CV
+        </Link>
+        <a
+          href={profile.github}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-muted transition-colors hover:text-ink"
+        >
+          GitHub
+        </a>
       </div>
+
+      <p className="text-muted">
+        © {new Date().getFullYear()} · {profile.name}
+      </p>
+      <p className="mt-1 text-[11px] text-subtle">
+        Built with Next.js & Tailwind CSS · Phnom Penh, Cambodia
+      </p>
     </footer>
   );
 }

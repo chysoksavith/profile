@@ -48,12 +48,13 @@
       "type": "Full-time",
       "period": "2025 \u2014 Present",
       "startDate": "May 15, 2025",
-      "description": "Building web applications end to end \u2014 frontend interfaces and backend APIs \u2014 with database design and cross-team collaboration.",
+      "description": "Building web applications end to end — frontend interfaces, backend APIs, and database design. Responsible for deploying projects and managing containerized workloads using KubeSphere.",
       "stack": [
         "Laravel",
         "PHP",
         "Vue.js",
-        "PostgreSQL"
+        "PostgreSQL",
+        "KubeSphere"
       ]
     },
     {
@@ -76,20 +77,14 @@
       "featured": true,
       "status": "In progress",
       "role": "Web Developer",
-      "period": "2026 \u2014 Present",
-      "description": "Multi-platform ERP ecosystem for business management and employee self-service. The system features a centralized web administrative dashboard alongside a companion mobile application for staff operations like attendance and leave requests.",
-      "highlights": [
-        "Laravel REST API serving both web and mobile clients",
-        "Vue.js single-page frontend for the admin panel",
-        "Flutter cross-platform mobile app for employee self-service",
-        "PostgreSQL database design with centralized authentication"
-      ],
+      "period": "2026 — Present",
+      "description": "Multi-platform ERP system and companion mobile app for business operations, attendance tracking, and employee self-service.",
+      "highlights": [],
       "tags": [
         "Laravel",
         "Vue.js",
         "Flutter",
-        "PostgreSQL",
-        "Tailwind CSS"
+        "PostgreSQL"
       ],
       "github": "",
       "demo": ""
@@ -124,12 +119,12 @@
       ]
     },
     {
-      "category": "Tooling",
+      "category": "Tooling & DevOps",
       "items": [
         "Git",
-        "GitHub",
-        "GitLab",
-        "Postman"
+        "Postman",
+        "KubeSphere",
+        "Docker"
       ]
     }
   ],

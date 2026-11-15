@@ -12,6 +12,25 @@
 --------------------------------------------------------------------------- */
 
 :root {
+  color-scheme: light;
+
+  --canvas: #fafafa;
+  --surface: #ffffff;
+  --elevated: #f4f4f5;
+
+  --ink: #18181b;
+  --muted: #52525b;
+  --subtle: #71717a;
+
+  --line: #e4e4e7;
+  --line-strong: #d4d4d8;
+
+  --accent: #4f46e5;
+  --accent-soft: #eef2ff;
+  --positive: #16a34a;
+}
+
+.dark {
   color-scheme: dark;
 
   --canvas: #0b0b0c;
@@ -68,9 +87,9 @@ body {
   text-rendering: optimizeLegibility;
 }
 
-/* Keep anchor targets clear of the fixed header. */
+/* Anchor targets scroll offset */
 [id] {
-  scroll-margin-top: 6rem;
+  scroll-margin-top: 2rem;
 }
 
 ::selection {
