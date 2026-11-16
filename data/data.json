@@ -1,14 +1,14 @@
 {
   "site": {
     "url": "",
-    "title": "Chy Soksavit \u2014 Web Developer",
-    "description": "Web developer and IT engineer based in Phnom Penh, building high-performance web applications with Vue.js, Node.js, Laravel and SQL databases."
+    "title": "Chy Soksavit \u2014 Full-Stack Developer",
+    "description": "Full-stack developer and IT engineer based in Phnom Penh, building high-performance web applications with Vue.js, Node.js, Laravel and SQL databases."
   },
   "profile": {
     "name": "Chy Soksavit",
     "initials": "CS",
     "avatar": "/profile.jpg",
-    "role": "Web Developer & IT Engineer",
+    "role": "Full-Stack Developer & IT Engineer",
     "location": "Phnom Penh, Cambodia",
     "address": "Sangkat Ou Baek K'am, Khan Sen Sok, Phnom Penh",
     "email": "chysavith089@gmail.com",
@@ -17,7 +17,7 @@
     "resumeUrl": "",
     "available": true,
     "availability": "Available for freelance work",
-    "summary": "Hardworking and ambitious web developer currently completing a Master of Information Technology Engineering. I care about clean, maintainable code and enjoy engineering high-performance web applications with Vue.js, Node.js, Express, PHP, Laravel and SQL databases."
+    "summary": "Hardworking and ambitious full-stack developer currently completing a Master of Information Technology Engineering. I care about clean, maintainable code and enjoy engineering high-performance web applications with Vue.js, Node.js, Express, PHP, Laravel and SQL databases."
   },
   "nav": [
     {
@@ -43,7 +43,7 @@
   ],
   "experience": [
     {
-      "role": "Web Developer",
+      "role": "Full-Stack Developer",
       "company": "GAEA-SYS",
       "type": "Full-time",
       "period": "2025 \u2014 Present",
@@ -77,7 +77,7 @@
       "title": "ERP & Employee Mobile App",
       "featured": true,
       "status": "",
-      "role": "Web Developer",
+      "role": "Full-Stack Developer",
       "period": "2026 — Present",
       "description": "Multi-platform ERP system and companion mobile app for business operations, attendance tracking, and employee self-service.",
       "highlights": [
