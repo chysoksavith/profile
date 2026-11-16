@@ -51,6 +51,13 @@ export interface Experience {
   stack?: string[];
 }
 
+export interface ProjectImage {
+  src: string;
+  label: string;
+  /** "web" = rendered in browser frame, "mobile" = rendered in phone frame */
+  type: 'web' | 'mobile';
+}
+
 export interface Project {
   title: string;
   description: string;
@@ -67,6 +74,8 @@ export interface Project {
   period?: string;
   /** Bullet points rendered under the description. */
   highlights?: string[];
+  /** Screenshots / preview images for the detail modal. */
+  images?: ProjectImage[];
 }
 
 export interface SkillGroup {
@@ -100,7 +109,7 @@ export interface PortfolioData {
   footer: { note: string };
 }
 
-export const data: PortfolioData = raw;
+export const data: PortfolioData = raw as unknown as PortfolioData;
 
 export const { site, profile, nav, contact, footer } = data;
 

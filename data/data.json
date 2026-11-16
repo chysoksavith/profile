@@ -67,7 +67,8 @@
       "stack": [
         "AngularJS",
         "Node.js",
-        "Express.js"
+        "Express.js",
+        "MongoDB"
       ]
     }
   ],
@@ -75,11 +76,29 @@
     {
       "title": "ERP & Employee Mobile App",
       "featured": true,
-      "status": "In progress",
+      "status": "",
       "role": "Web Developer",
       "period": "2026 — Present",
       "description": "Multi-platform ERP system and companion mobile app for business operations, attendance tracking, and employee self-service.",
-      "highlights": [],
+      "highlights": [
+        "Main ERP dashboard with revenue, gross profit, vehicle stock, and sales pipeline metrics",
+        "HR module: employee management, attendance & shifts, leave management, payroll runs",
+        "POS & Inventory system with cart, promotions, low-stock alerts, and payment flow",
+        "Car dealership landing page with search, filtering, and promotions",
+        "Sale Letters module for booking, pricing, and vehicle deal summaries",
+        "Flutter mobile app: attendance clock-in/out, leave requests, and employee self-service profile"
+      ],
+      "images": [
+        { "src": "/image erp project/1dashboard.png",         "label": "ERP Dashboard",          "type": "web" },
+        { "src": "/image erp project/hrdashboard.png",        "label": "HR Dashboard",            "type": "web" },
+        { "src": "/image erp project/posdashboard.png",       "label": "POS Dashboard",           "type": "web" },
+        { "src": "/image erp project/pos.png",                "label": "POS – Point of Sale",     "type": "web" },
+        { "src": "/image erp project/salelatter.png",         "label": "Sale Letters",            "type": "web" },
+        { "src": "/image erp project/landingpage.png",        "label": "Customer Landing Page",   "type": "web" },
+        { "src": "/image erp project/loginapp.png",           "label": "Mobile App – Login",      "type": "mobile" },
+        { "src": "/image erp project/appconfirmattendace.png","label": "Mobile – Clock In",       "type": "mobile" },
+        { "src": "/image erp project/appprofilepage.png",     "label": "Mobile – Profile",        "type": "mobile" }
+      ],
       "tags": [
         "Laravel",
         "Vue.js",
@@ -95,10 +114,7 @@
       "category": "Frontend",
       "items": [
         "Vue.js",
-        "AngularJS",
-        "JavaScript (ES6+)",
-        "HTML5 / CSS3",
-        "Tailwind CSS"
+        "AngularJS"
       ]
     },
     {
@@ -112,10 +128,20 @@
       ]
     },
     {
+      "category": "AI & Automation",
+      "items": [
+        "AI Agents",
+        "LLM Orchestration",
+        "Model Context Protocol (MCP)",
+        "Second Brain / PKM"
+      ]
+    },
+    {
       "category": "Databases",
       "items": [
         "MySQL",
-        "PostgreSQL"
+        "PostgreSQL",
+        "MongoDB"
       ]
     },
     {

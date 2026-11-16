@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { ArrowLeft, ArrowUp, ArrowUpRight } from 'lucide-react';
 import Footer from '@/components/Footer';
 import GithubIcon from '@/components/GithubIcon';
-import Tag from '@/components/Tag';
+import ProjectCard from '@/components/ProjectCard';
 import ThemeToggle from '@/components/ThemeToggle';
 import { data, profile } from '@/lib/data';
 
@@ -40,72 +40,7 @@ export default function ProjectsPage() {
       {/* Projects List */}
       <section className="mt-12 space-y-8">
         {data.projects.map((project) => (
-          <article
-            key={project.title}
-            className="flex flex-col rounded-2xl border border-line bg-surface p-6 sm:p-7 transition-all duration-200 hover:border-line-strong"
-          >
-            <div className="flex flex-wrap items-center justify-between gap-3">
-              <div className="flex items-center gap-3">
-                <h2 className="text-xl font-bold tracking-tight text-ink">
-                  {project.title}
-                </h2>
-                {project.status && (
-                  <span className="rounded bg-accent-soft px-2 py-0.5 text-xs font-medium text-accent">
-                    {project.status}
-                  </span>
-                )}
-              </div>
-
-              {project.period && (
-                <span className="text-xs text-subtle tabular-nums font-mono">
-                  {project.period}
-                </span>
-              )}
-            </div>
-
-            {project.role && (
-              <p className="mt-1 text-xs font-medium text-muted">
-                Role: <span className="text-ink">{project.role}</span>
-              </p>
-            )}
-
-            <p className="mt-3 text-sm leading-relaxed text-muted">
-              {project.description}
-            </p>
-
-            <div className="mt-4 flex flex-wrap gap-1.5">
-              {project.tags.map((tag) => (
-                <Tag key={tag}>{tag}</Tag>
-              ))}
-            </div>
-
-            {(project.github || project.demo) && (
-              <div className="mt-5 flex items-center gap-4 border-t border-line/60 pt-4">
-                {project.github && (
-                  <a
-                    href={project.github}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1.5 text-xs font-medium text-muted transition-colors hover:text-ink"
-                  >
-                    <GithubIcon size={14} />
-                    Source code
-                  </a>
-                )}
-                {project.demo && (
-                  <a
-                    href={project.demo}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1.5 text-xs font-medium text-muted transition-colors hover:text-ink"
-                  >
-                    Live preview
-                    <ArrowUpRight size={14} />
-                  </a>
-                )}
-              </div>
-            )}
-          </article>
+          <ProjectCard key={project.title} project={project} />
         ))}
 
         {/* GitHub link callout */}
