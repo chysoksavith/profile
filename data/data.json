@@ -48,22 +48,22 @@
       "type": "Full-time",
       "period": "2025 \u2014 Present",
       "startDate": "May 15, 2025",
-      "description": "Building web applications end to end — frontend interfaces, backend APIs, and database design. Responsible for deploying projects and managing containerized workloads using KubeSphere.",
+      "description": "Building web applications end to end — frontend interfaces, backend APIs, and database design. Responsible for deploying and managing containerized applications with Docker.",
       "stack": [
         "Laravel",
         "PHP",
         "Vue.js",
         "PostgreSQL",
-        "KubeSphere"
+        "Docker"
       ]
     },
     {
-      "role": "Web Developer",
+      "role": "Full-Stack Developer",
       "company": "THEA LAN Startup",
       "type": "Freelance",
       "period": "2025 \u2014 Present",
       "startDate": "March 17, 2025",
-      "description": "Delivering frontend and backend features for client web projects, from UI components through to REST API endpoints.",
+      "description": "Building full-stack web applications end to end — developing interactive frontend interfaces with AngularJS and architecting backend RESTful APIs with Node.js, Express, and MongoDB.",
       "stack": [
         "AngularJS",
         "Node.js",
@@ -111,10 +111,10 @@
   ],
   "skills": [
     {
-      "category": "Frontend",
+      "category": "AI & Automation",
       "items": [
-        "Vue.js",
-        "AngularJS"
+        "AI Agents & Automation",
+        "Context Engineering (MCP)"
       ]
     },
     {
@@ -128,29 +128,26 @@
       ]
     },
     {
-      "category": "AI & Automation",
+      "category": "Frontend",
       "items": [
-        "AI Agents",
-        "LLM Orchestration",
-        "Model Context Protocol (MCP)",
-        "Second Brain / PKM"
+        "Vue.js",
+        "AngularJS"
       ]
     },
     {
       "category": "Databases",
       "items": [
-        "MySQL",
         "PostgreSQL",
+        "MySQL",
         "MongoDB"
       ]
     },
     {
       "category": "Tooling & DevOps",
       "items": [
+        "Docker",
         "Git",
-        "Postman",
-        "KubeSphere",
-        "Docker"
+        "Postman"
       ]
     }
   ],

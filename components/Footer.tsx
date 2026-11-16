@@ -23,14 +23,6 @@ export default function Footer() {
         >
           CV
         </Link>
-        <a
-          href={profile.github}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-muted transition-colors hover:text-ink"
-        >
-          GitHub
-        </a>
       </div>
 
       <p className="text-muted">
