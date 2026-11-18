@@ -11,27 +11,25 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  ...(site.url ? { metadataBase: new URL(site.url) } : {}),
+  metadataBase: new URL(site.url || 'http://localhost:3000'),
   title: site.title,
   description: site.description,
   authors: [{ name: profile.name }],
+  icons: {
+    icon: '/favicon-light.png',
+    apple: '/apple-touch-icon.png',
+  },
   openGraph: {
     type: 'website',
     title: site.title,
     description: site.description,
-    // Relative image URLs need `metadataBase`, so only emit them once
-    // `site.url` is filled in.
-    ...(site.url
-      ? {
-          url: site.url,
-          ...(profile.avatar ? { images: [{ url: profile.avatar }] } : {}),
-        }
-      : {}),
+    images: [{ url: '/logolight.jpeg' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: site.title,
     description: site.description,
+    images: ['/logolight.jpeg'],
   },
 };
 
