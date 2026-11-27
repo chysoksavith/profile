@@ -154,3 +154,18 @@ body {
     transition-duration: 0.01ms !important;
   }
 }
+
+@page {
+  size: auto;
+  margin: 10mm 12mm;
+}
+
+@media print {
+  html,
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}
