@@ -6,8 +6,6 @@ import ThemeToggle from '@/components/ThemeToggle';
 import { data, profile } from '@/lib/data';
 
 export default function Home() {
-  const currentRole = data.experience[0];
-
   return (
     <main className="mx-auto max-w-3xl px-4 py-10 sm:px-6 sm:py-16">
       <div className="grid grid-cols-1 gap-5 md:grid-cols-2 sm:gap-6">
@@ -62,53 +60,50 @@ export default function Home() {
           </div>
         </article>
 
-        {/* Card 2: Current Role (Span 2) */}
-        {currentRole && (
+        {/* Card 2: Work History (Span 2) */}
+        {data.experience.length > 0 && (
           <article className="flex flex-col justify-between rounded-2xl border border-line bg-surface p-5 transition-all duration-200 hover:border-line-strong sm:p-6 md:col-span-2">
             <div>
-              <div className="flex items-center justify-between">
-                <h2 className="text-xs font-semibold uppercase tracking-wider text-subtle">
-                  Current Role
-                </h2>
-                <span className="text-xs text-subtle tabular-nums font-mono">
-                  {currentRole.period}
-                </span>
-              </div>
+              <h2 className="text-xs font-semibold uppercase tracking-wider text-subtle">
+                Work History
+              </h2>
 
-              <div className="mt-3">
-                <div className="text-lg font-semibold tracking-tight text-ink sm:text-xl">
-                  {currentRole.role}
-                </div>
-                <div className="mt-0.5 text-sm font-medium text-muted">
-                  {currentRole.company} · {currentRole.type}
-                </div>
-                <p className="mt-2 text-sm leading-relaxed text-muted">
-                  {currentRole.description}
-                </p>
-
-                {currentRole.stack && (
-                  <div className="mt-3.5 flex flex-wrap gap-1.5">
-                    {currentRole.stack.map((tech) => (
-                      <span
-                        key={tech}
-                        className="rounded-md border border-line bg-elevated px-2 py-0.5 text-xs text-muted"
-                      >
-                        {tech}
+              <div className="mt-4 divide-y divide-line/60">
+                {data.experience.map((job, index) => (
+                  <div
+                    key={`${job.company}-${job.role}`}
+                    className={index === 0 ? 'pb-5' : 'pt-5 pb-5 last:pb-0'}
+                  >
+                    <div className="flex items-center justify-between gap-2">
+                      <div className="text-lg font-semibold tracking-tight text-ink sm:text-xl">
+                        {job.role}
+                      </div>
+                      <span className="shrink-0 text-xs text-subtle tabular-nums font-mono">
+                        {job.period}
                       </span>
-                    ))}
-                  </div>
-                )}
-              </div>
-            </div>
+                    </div>
+                    <div className="mt-0.5 text-sm font-medium text-muted">
+                      {job.company} · {job.type}
+                    </div>
+                    <p className="mt-2 text-sm leading-relaxed text-muted">
+                      {job.description}
+                    </p>
 
-            <div className="mt-4 border-t border-line/60 pt-3">
-              <Link
-                href="/experience"
-                className="inline-flex items-center gap-1.5 text-sm font-medium text-accent transition-colors hover:underline"
-              >
-                View full work history
-                <ArrowRight size={14} />
-              </Link>
+                    {job.stack && job.stack.length > 0 && (
+                      <div className="mt-3.5 flex flex-wrap gap-1.5">
+                        {job.stack.map((tech) => (
+                          <span
+                            key={tech}
+                            className="rounded-md border border-line bg-elevated px-2 py-0.5 text-xs text-muted"
+                          >
+                            {tech}
+                          </span>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                ))}
+              </div>
             </div>
           </article>
         )}
