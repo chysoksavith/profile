@@ -21,7 +21,7 @@ export default function Experience() {
             </div>
 
             <p className="mt-1 text-sm text-muted">
-              {job.company}
+              <span className="text-purple">{job.company}</span>
               <span aria-hidden="true" className="mx-1.5 text-subtle">
                 ·
               </span>

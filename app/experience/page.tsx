@@ -55,8 +55,8 @@ export default function ExperiencePage() {
                 </span>
               </div>
 
-              <div className="mt-1 text-sm font-medium text-accent">
-                {job.company}
+              <div className="mt-1 text-sm font-medium">
+                <span className="text-purple">{job.company}</span>
                 <span className="mx-2 text-subtle">·</span>
                 <span className="text-muted">{job.type}</span>
               </div>
